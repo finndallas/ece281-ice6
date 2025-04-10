@@ -27,3 +27,16 @@ env:
 If successful then GHDL will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity failure` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
 Assert statements of other severity levels, such as "error" w
+
+
+Documentation: I asked Duke why I was getting a red underline for 
+	port map ( 
+       i_clk   => w_clk,
+       i_reset => w_reset,
+       i_D3    => w_D3,
+       i_D2    => w_D2,
+       i_D1    => w_D1,
+       i_D0    => w_D0,
+       o_data  => f_data,
+       o_sel   => f_sel_n
+and he said it was because I was using ; instead of , . C2C Duessler told me I needed to add a clk = ‘0’ so I did because before I only had it ‘1’.
