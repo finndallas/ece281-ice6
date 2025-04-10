@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TDM4_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TDM4_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="297.401 ns"></ZoomEndTime>
+      <Cursor1Time time="160.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="141"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/TDM4_tb/w_clk" type="logic">
+      <obj_property name="ElementShortName">w_clk</obj_property>
+      <obj_property name="ObjectShortName">w_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/w_reset" type="logic">
+      <obj_property name="ElementShortName">w_reset</obj_property>
+      <obj_property name="ObjectShortName">w_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/w_D3" type="array">
+      <obj_property name="ElementShortName">w_D3[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_D3[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/w_D2" type="array">
+      <obj_property name="ElementShortName">w_D2[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_D2[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/w_D1" type="array">
+      <obj_property name="ElementShortName">w_D1[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_D1[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/w_D0" type="array">
+      <obj_property name="ElementShortName">w_D0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">w_D0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/f_data" type="array">
+      <obj_property name="ElementShortName">f_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">f_data[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/f_sel_n" type="array">
+      <obj_property name="ElementShortName">f_sel_n[3:0]</obj_property>
+      <obj_property name="ObjectShortName">f_sel_n[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/k_IO_WIDTH" type="other">
+      <obj_property name="ElementShortName">k_IO_WIDTH</obj_property>
+      <obj_property name="ObjectShortName">k_IO_WIDTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TDM4_tb/k_clk_period" type="other">
+      <obj_property name="ElementShortName">k_clk_period</obj_property>
+      <obj_property name="ObjectShortName">k_clk_period</obj_property>
+   </wvobject>
+</wave_config>
